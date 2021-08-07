@@ -136,7 +136,8 @@ namespace Recursion_Stripped
     {
         public static List<int> GetPalindrome(int n)
         {
-            if (n < 1) throw new ArgumentException($"intput given {n} is not allowed.  It is expected to be positive", nameof(n));
+            if (n < 1)
+                throw new ArgumentException($"intput given {n} is not allowed.  It is expected to be positive", nameof(n));
             
             // A place holder
             return new List<int>();
@@ -157,7 +158,8 @@ namespace Recursion_Stripped
         // Hint
         public static IEnumerable<int> PascalsRow(int n)
         {
-            if (n < 0) throw new ArgumentException($"input value of {n} is illegal.  Expected value of 0 or more", nameof(n));
+            if (n < 0)
+                throw new ArgumentException($"input value of {n} is illegal.  Expected value of 0 or more", nameof(n));
             
             // Place holder		
             return new List<int>();
@@ -168,7 +170,8 @@ namespace Recursion_Stripped
     {
         public static BigInteger Fib(int n)
         {
-            if (n < 0) throw new ArgumentException($"intput ({n}) may not be negative", nameof(n));
+            if (n < 0)
+                throw new ArgumentException($"intput ({n}) may not be negative", nameof(n));
 
             // Place holder
             return 0;
