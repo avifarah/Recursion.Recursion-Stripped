@@ -115,20 +115,20 @@ namespace Recursion_Stripped
             *		MoveDisk:	A -> C		(Move the larger disk to the destination Peg, C)
             *		MoveDisk:	B -> C		(Move the smaller disk from B on top of the larger disk on C)
             */
-            var diskCount = 3;
-            try
-            {
-                Console.WriteLine();
-                Console.WriteLine($"Tower of Hanoi with {diskCount} disks:");
-                TowerOfHanoi.Peg fromPeg = TowerOfHanoi.Peg.A;
-                TowerOfHanoi.Peg toPeg = TowerOfHanoi.Peg.C;
-                TowerOfHanoi.Peg usingPeg = TowerOfHanoi.Peg.B;
-                TowerOfHanoi.MoveTower(diskCount, fromPeg, usingPeg, toPeg);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error while processing TowerOfHanoi({diskCount}).  Internal message: {ex.Message}");
-            }
+            // var diskCount = 3;
+            // try
+            // {
+            //     Console.WriteLine();
+            //     Console.WriteLine($"Tower of Hanoi with {diskCount} disks:");
+            //     TowerOfHanoi.Peg fromPeg = TowerOfHanoi.Peg.A;
+            //     TowerOfHanoi.Peg toPeg = TowerOfHanoi.Peg.C;
+            //     TowerOfHanoi.Peg usingPeg = TowerOfHanoi.Peg.B;
+            //     TowerOfHanoi.MoveTower(diskCount, fromPeg, usingPeg, toPeg);
+            // }
+            // catch (Exception ex)
+            // {
+            //     Console.WriteLine($"Error while processing TowerOfHanoi({diskCount}).  Internal message: {ex.Message}");
+            // }
         }
     }
 
