@@ -61,7 +61,7 @@ namespace Recursion_Stripped
             *		(a + b)^1 = 1*a + 1*b
             *		(a + b)^2 = 1*a^2 + 2*a*b + 1*b^2
             *		(a + b)^3 = 1*a^3 + 3*a^2*b + 3*a*b^2 + 1*b^3
-            *  Write a recursive program that return the n'th row of Archimedis triangle
+            *  Write a recursive program that return the n'th row of Pascal's triangle
             */
             //var row = 5;
             //try
